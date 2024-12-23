@@ -4,8 +4,27 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        
+        <Version>1.0.0</Version>
+
+        <PackageId>MachOSharp</PackageId>
+        <Authors>covers1624</Authors>
+        <Title>MachOSharp</Title>
+        <Description>A small library for reading macOS Mach-O binaries.</Description>
+        
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/covers1624/MachOSharp</PackageProjectUrl>
+
+        <PackageTags>Mach-O</PackageTags>
+        <RepositoryUrl>https://github.com/covers1624/MachOSharp</RepositoryUrl>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="../LICENSE.txt" Pack="true" PackagePath=""/>
+        <None Include="../README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+    
     <ItemGroup>
       <Folder Include="src\" />
     </ItemGroup>
