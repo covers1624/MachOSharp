@@ -3,6 +3,9 @@
 !.github
 !.gitignore
 
+!README.md
+!LICENSE.txt
+
 !MachOSharp.sln
 
 !MachOSharp/
